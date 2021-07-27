@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.SplashScreen">
+    tools:context=".ui.splash.SplashScreen">
 
-    <id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.OpenGLView
+    <id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.splash.OpenGLView
         android:id="@+id/openGLView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

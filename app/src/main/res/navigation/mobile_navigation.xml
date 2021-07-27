@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.StoryListFragment"
+        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.list.StoryListFragment"
         android:label="@string/title_stories"
         tools:layout="@layout/fragment_story_list"/>
 
     <fragment
         android:id="@+id/navigation_trips"
-        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.TripListFragment"
+        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.trip.TripListFragment"
         android:label="@string/title_trips"
         tools:layout="@layout/fragment_trip_list"/>
 
     <activity
         android:id="@+id/navigation_route_timer"
-        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.RouteTimerActivity"
+        android:name="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.routetimer.RouteTimerActivity"
         android:label="@string/route_timer"
         tools:layout="@layout/activity_route_timer"/>
 

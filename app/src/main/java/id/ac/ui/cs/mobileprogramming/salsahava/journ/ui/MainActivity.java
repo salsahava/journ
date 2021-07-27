@@ -3,7 +3,6 @@ package id.ac.ui.cs.mobileprogramming.salsahava.journ.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
@@ -18,7 +17,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.Locale;
 
 import id.ac.ui.cs.mobileprogramming.salsahava.journ.R;
-import id.ac.ui.cs.mobileprogramming.salsahava.journ.entity.Story;
+import id.ac.ui.cs.mobileprogramming.salsahava.journ.data.entity.Story;
+import id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.add.AddStoryActivity;
+import id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.detail.StoryDetailActivity;
+import id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.detail.StoryDetailFragment;
 import id.ac.ui.cs.mobileprogramming.salsahava.journ.util.Communicator;
 
 public class MainActivity extends AppCompatActivity implements Communicator {

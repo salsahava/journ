@@ -6,13 +6,13 @@
     <data>
         <variable
             name="AddStoryViewModel"
-            type="id.ac.ui.cs.mobileprogramming.salsahava.journ.viewmodel.AddStoryViewModel" />
+            type="id.ac.ui.cs.mobileprogramming.salsahava.journ.ui.add.AddStoryViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.AddStoryActivity">
+        tools:context=".ui.add.AddStoryActivity">
 
         <ScrollView
             android:id="@+id/scrollView"
